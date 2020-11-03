@@ -182,7 +182,7 @@ bool TinyGPSPlus::endOfTermHandler()
         break;
       case GPS_SENTENCE_GPGGA:
         time.commit();
-        if (sentenceHasFix)
+        if (1)
         {
           location.commit();
           altitude.commit();
